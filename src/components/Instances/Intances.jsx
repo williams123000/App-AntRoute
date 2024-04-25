@@ -94,11 +94,11 @@ function Instances(props) {
                                     <p className='text-start mx-4'>Numero de Clientes: {instance.Customers}</p>
                                     <p className='text-start mx-4'>Numero de Vehiculos: {instance.Vehicles}</p>
                                     <p className='text-start mx-4'>Numero de Rutas: {instance.Routes}</p>
-                                    <p className='text-start mx-4'>Alpha: {instance.Best_Execution.Alpha}</p>
-                                    <p className='text-start mx-4'>Beta: {instance.Best_Execution.Beta}</p>
-                                    <p className='text-start mx-4'>Gamma: {instance.Best_Execution.Gamma}</p>
-                                    <p className='text-start mx-4'>Rho: {instance.Best_Execution.Rho}</p>
-                                    <p className='text-start mx-4'>Costo: {instance.Best_Execution.FO}</p>
+                                    <p className='text-start mx-4'>Alpha: {instance.Best_Execution.Alpha.toFixed(2)}</p>
+                                    <p className='text-start mx-4'>Beta: {instance.Best_Execution.Beta.toFixed(2)}</p>
+                                    <p className='text-start mx-4'>Gamma: {instance.Best_Execution.Gamma.toFixed(2)}</p>
+                                    <p className='text-start mx-4'>Rho: {instance.Best_Execution.Rho.toFixed(2)}</p>
+                                    <p className='text-start mx-4'>Costo: {instance.Best_Execution.FO.toFixed(2)}</p>
                                     <Button onClick={() => (props.setInstance(instance.Name_Instance)) }>Cargar</Button>
                                 </div>
                             </div>

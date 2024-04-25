@@ -271,12 +271,16 @@
 .Card-Instance {
   position: relative;
   perspective: 1000px;
-  width: 500px;
+  width: 600px;
   height: 500px;
   opacity: 1;
   margin: 1rem;
 }
 
+
+.Card-Instance .Font-Card{
+  font-size: 15px;
+}
 .Card-Instance .Font-Card,
 .Card-Instance .Back-Card {
 
@@ -349,4 +353,15 @@ input:checked~.Card-Instance .Font-Card {
   /* Espacio superior entre la línea y el contenido superior */
   margin-bottom: 0px;
   /* Espacio inferior entre la línea y el contenido inferior */
+}
+
+.accordion {
+  --bs-accordion-color: #ffffff !important;
+  --bs-accordion-bg: #fff0 !important;
+  --bs-accordion-border-color: #dee2e600 !important; 
+  --bs-accordion-btn-color: #ffffff !important;
+  --bs-accordion-btn-bg: #242424 !important;
+  
+
+
 }
