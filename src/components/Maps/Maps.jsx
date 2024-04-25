@@ -14,7 +14,7 @@ import { FaListCheck } from "react-icons/fa6";
 
 import axios from 'axios';
 import Background_Image from './Background.png';
-function Maps() {
+function Maps(props) {
     const position = [19.435330, -99.14281]
     const [routes, setRoutes] = useState([]);
     const [routes_dynamic, setRoutes_dynamic] = useState([]);
@@ -27,7 +27,7 @@ function Maps() {
 
     useEffect(() => {
 
-        axios.get('http://localhost:3000/Test')
+        axios.get('http://localhost:3000/Route', { params: { "Instance": props.instance } })
             .then(res => {
                 console.log(res.data);
                 res.data.forEach(element => {

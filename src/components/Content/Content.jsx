@@ -11,6 +11,7 @@ import { IoHelpBuoy } from "react-icons/io5";
 import { FaListCheck } from "react-icons/fa6";
 import Maps from '../Maps/Maps';
 import Instances from '../Instances/Intances';
+
 function Content(props) {
     const [count, setCount] = useState(0)
 
@@ -56,7 +57,7 @@ function Content(props) {
 
                     </div>
                     <div className='Content-Down'>
-                        <Maps />
+                        <Maps instance={props.instance}/>
                     </div>
 
                 </div>
@@ -92,7 +93,7 @@ function Content(props) {
 
                 </div>
                 <div className='Content-Down'>
-                    <Instances />
+                    <Instances setInstance={props.setInstance}/>
                 </div>
 
             </div>

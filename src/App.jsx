@@ -14,15 +14,13 @@ import Menu from './components/Menu/Menu';
 import Content from './components/Content/Content';
 function App() {
   const [mode, setMode] = useState('Route')
-
-
-
+  const [Instance, setInstance] = useState('C201')
   return (
     <>
       <div className='Page'>
         <div className='Full'>
           <Menu mode={mode} setMode={setMode}/>
-          <Content mode={mode}/>
+          <Content mode={mode} instance={Instance} setInstance={setInstance}/>
         </div>
 
 

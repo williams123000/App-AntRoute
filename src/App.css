@@ -1,11 +1,9 @@
-
-
 #root {
   display: flex;
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  
+
   text-align: center;
 }
 
@@ -15,9 +13,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -26,6 +26,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -46,24 +47,25 @@
 }
 
 
-.Page{
+.Page {
   display: flex;
   width: 100%;
   background-color: white;
   height: 100%;
   padding: 2rem;
-  
+
 }
-.Full{
+
+.Full {
   display: flex;
   width: 100%;
   height: 100%;
   background-color: #242424;
   border-radius: 20px;
-  box-shadow: 10px 10px 25px 10px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 25px 10px rgba(0, 0, 0, 0.75);
 }
 
-.Menu{
+.Menu {
   width: 8%;
   padding: 1rem 1rem 5rem 1rem;
   display: flex;
@@ -73,7 +75,7 @@
   border-radius: 20px 0px 0px 20px;
 }
 
-.Header{
+.Header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,44 +83,45 @@
   gap: 2rem;
 
 }
-.Header-Menu{
+
+.Header-Menu {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  
+
 }
 
-.Options-Menu{
+.Options-Menu {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 
 }
 
-.Content{
+.Content {
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: #242424 !important;
   border-radius: 20px;
   padding: 1rem;
-  
+
 }
 
-.Content-Up{
-  
+.Content-Up {
+
   width: 100%;
-  
+
   /*background-color: #e7e7e7;*/
   padding: 2rem;
   border-radius: 20px;
   color: white;
-  
+
 }
 
-.Content-Down{
-  
+.Content-Down {
+
   width: 100%;
   height: 100%;
   background-color: transparent;
@@ -127,14 +130,14 @@
   overflow-y: scroll;
 }
 
-.Maps{
+.Maps {
   width: 100%;
   height: 100%;
   border-radius: 20px;
   background-color: white
 }
 
-.Container-Maps{
+.Container-Maps {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -142,76 +145,78 @@
   border-radius: 20px;
 }
 
-.leaflet-container{
+.leaflet-container {
   width: 100%;
   height: 100%;
   position: absolute;
-  
+
   z-index: 0;
 }
-#canvas_static{
-  
+
+#canvas_static {
+
   height: 100%;
 
 }
 
-#canvas{
-  
+#canvas {
+
   height: 100%;
 
 }
 
-#canvas_points{
-  
+#canvas_points {
+
   height: 100%;
 
 
 }
-.Search-Bar{
+
+.Search-Bar {
   width: 100%;
   display: flex;
   gap: 2rem;
-  
+
 }
 
-.Input-Search{
+.Input-Search {
   height: 50px;
   background-color: transparent !important;
   color: white !important;
-  
+
 }
 
-.Input-Search::placeholder{
-  
+.Input-Search::placeholder {
+
   color: #878788 !important;
-  
+
 }
 
-.Input-Search-Componet{
+.Input-Search-Componet {
   width: 400px;
 }
 
-.Text-Search{
+.Text-Search {
   gap: 2rem;
 }
 
 
 .form-control:focus {
   border-color: white !important;
-  box-shadow: 0 0 1rem 0.5rem rgba(255, 255, 255, 0.25)  !important;
-} 
+  box-shadow: 0 0 1rem 0.5rem rgba(255, 255, 255, 0.25) !important;
+}
 
 
-.Button-Primary{
+.Button-Primary {
   background-color: #242424 !important;
   border: #242424 !important;
 }
 
-.modal-dialog{
+.modal-dialog {
   max-width: 70% !important;
 }
 
-.Foto_Perfil{
+.Foto_Perfil {
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -219,28 +224,34 @@
   border: 3px solid #242424;
 }
 
-.Colaboradores{
+.Colaboradores {
   display: flex;
   gap: 5rem;
   justify-content: center;
 }
 
 .form-control {
-  border: 1px solid #ced4da !important; /* Establecer un borde sólido */
-  border-radius: .25rem; /* Ajustar el radio de borde según sea necesario */
-  padding: .375rem .75rem; /* Ajustar el relleno según sea necesario */
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important; /* Agregar una transición suave */
+  border: 1px solid #ced4da !important;
+  /* Establecer un borde sólido */
+  border-radius: .25rem;
+  /* Ajustar el radio de borde según sea necesario */
+  padding: .375rem .75rem;
+  /* Ajustar el relleno según sea necesario */
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+  /* Agregar una transición suave */
 
 }
 
 .form-control:focus {
-  border-color: #ced4da !important; /* Cambiar el color del borde al enfocar */
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important; /* Agregar un resplandor al enfocar */
+  border-color: #ced4da !important;
+  /* Cambiar el color del borde al enfocar */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+  /* Agregar un resplandor al enfocar */
 
 }
 
 
-.Instances{
+.Instances {
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -250,23 +261,25 @@
   padding: 2rem;
   flex-wrap: wrap;
   overflow-y: scroll;
-  
+
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
-.Card-Instance{
+
+.Card-Instance {
   position: relative;
   perspective: 1000px;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   opacity: 1;
   margin: 1rem;
 }
 
 .Card-Instance .Font-Card,
-.Card-Instance .Back-Card{
-  
+.Card-Instance .Back-Card {
+
   position: absolute;
   top: 0;
   left: 0;
@@ -279,25 +292,61 @@
   transition: 0.6s;
   cursor: pointer;
   color: white;
-  box-shadow: 12px 10px 20px 5px rgba(0,0,0,0.75);
+  box-shadow: 12px 10px 20px 5px rgba(0, 0, 0, 0.75);
 
 }
 
-.Back-Card{
+.Back-Card {
   transform: rotateY(180deg);
-  
+
 
 }
 
-.Input-Card{
+.Input-Card {
   position: absolute;
   scale: 0;
 }
 
-input:checked ~ .Card-Instance .Back-Card{
+input:checked~.Card-Instance .Back-Card {
   transform: rotateY(0);
 }
 
-input:checked ~ .Card-Instance .Font-Card{
+input:checked~.Card-Instance .Font-Card {
   transform: rotateY(-180deg);
+}
+
+.Perfil_Info {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  
+  
+}
+
+.Foto_Perfil_ {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  /* Espacio entre la imagen y el texto */
+  border-radius: 100%;
+  object-fit: cover;
+  border: 3px solid #242424;
+}
+
+.Texto_Perfil {
+  max-width: calc(100%-60px);
+  /* Resta el ancho de la imagen (50px) más un margen (10px) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10%;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.Linea_Invisible {
+  margin-top: 30px;
+  /* Espacio superior entre la línea y el contenido superior */
+  margin-bottom: 0px;
+  /* Espacio inferior entre la línea y el contenido inferior */
 }
