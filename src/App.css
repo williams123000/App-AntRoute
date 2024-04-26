@@ -54,6 +54,7 @@
   height: 100%;
   padding: 2rem;
   background: #ffffff;
+  
 
 }
 
@@ -76,9 +77,9 @@
   border-radius: 20px 0px 0px 20px;
   /*background-color: #e5e5f7;*/
   background: #ffffff;
-  background: -webkit-radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
-  background: radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
-  
+  background: -webkit-radial-gradient(circle, #ffffff 0%, #f0f0f0 100%);
+  background: radial-gradient(circle, #ffffff 0%, #f0f0f0 100%);
+    
 
 }
 
@@ -113,6 +114,9 @@
   background-color: #242424 !important;
   border-radius: 20px;
   padding: 1rem;
+  background: #5e5e5e;
+  background: -webkit-radial-gradient(circle, #5e5e5e 0%, #242424 100%);
+  background: radial-gradient(circle, #5e5e5e 0%, #242424 100%);
 
 }
 
@@ -252,9 +256,9 @@
 }
 
 .form-control:focus {
-  border-color: #ced4da !important;
+  border-color: #ffffff !important;
   /* Cambiar el color del borde al enfocar */
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25) !important;
   /* Agregar un resplandor al enfocar */
 
 }
@@ -270,9 +274,10 @@
   padding: 2rem;
   flex-wrap: wrap;
   overflow-y: scroll;
-  background: #dbdbdb;
-  background: -webkit-radial-gradient(circle, #dbdbdb 0%, #ffffff 100%);
-  background: radial-gradient(circle, #dbdbdb 0%, #ffffff 100%);
+  background: #ffffff;
+  background: -webkit-radial-gradient(circle, #ffffff 0%, #f0f0f0 100%);
+  background: radial-gradient(circle, #ffffff 0%, #f0f0f0 100%);
+  
 
 
 }
@@ -311,6 +316,7 @@
   cursor: pointer;
   color: white;
   box-shadow: 12px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  
 
 }
 
@@ -387,7 +393,5 @@ input:checked~.Card-Instance .Font-Card {
 }
 
 .modal-content{
-  background: #ffffff;
-  background: -webkit-radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
-  background: radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
+  
 }
