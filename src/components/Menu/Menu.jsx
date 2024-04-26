@@ -171,7 +171,7 @@ function Menu(props) {
                         </div>
 
                         <h2>Repositorio</h2>
-                        <a href="https://github.com/williams123000/VRPTW" target="_blank">
+                        <a href="https://github.com/williams123000/VRPTW-PY" target="_blank">
                             <FaSquareGithub size={50} />
                         </a>
 
