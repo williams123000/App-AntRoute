@@ -99,7 +99,7 @@ function Instances(props) {
                                     <p className='text-start mx-4'>Gamma: {instance.Best_Execution.Gamma.toFixed(2)}</p>
                                     <p className='text-start mx-4'>Rho: {instance.Best_Execution.Rho.toFixed(2)}</p>
                                     <p className='text-start mx-4'>Costo: {instance.Best_Execution.FO.toFixed(2)}</p>
-                                    <Button onClick={() => (props.setInstance(instance.Name_Instance)) }>Cargar</Button>
+                                    <Button size="lg" variant="light" onClick={() => (props.setInstance(instance.Name_Instance)) }>Cargar</Button>
                                 </div>
                             </div>
 

@@ -53,6 +53,7 @@
   background-color: white;
   height: 100%;
   padding: 2rem;
+  background: #ffffff;
 
 }
 
@@ -73,6 +74,12 @@
   justify-content: space-between;
   background-color: white;
   border-radius: 20px 0px 0px 20px;
+  /*background-color: #e5e5f7;*/
+  background: #ffffff;
+  background: -webkit-radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
+  background: radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
+  
+
 }
 
 .Header {
@@ -128,6 +135,8 @@
   border-radius: 20px;
   padding: 0rem 2rem 2rem 2rem;
   overflow-y: scroll;
+  
+
 }
 
 .Maps {
@@ -261,6 +270,10 @@
   padding: 2rem;
   flex-wrap: wrap;
   overflow-y: scroll;
+  background: #dbdbdb;
+  background: -webkit-radial-gradient(circle, #dbdbdb 0%, #ffffff 100%);
+  background: radial-gradient(circle, #dbdbdb 0%, #ffffff 100%);
+
 
 }
 
@@ -278,9 +291,10 @@
 }
 
 
-.Card-Instance .Font-Card{
+.Card-Instance .Font-Card {
   font-size: 15px;
 }
+
 .Card-Instance .Font-Card,
 .Card-Instance .Back-Card {
 
@@ -323,8 +337,8 @@ input:checked~.Card-Instance .Font-Card {
   display: flex;
   align-items: center;
   padding-top: 1rem;
-  
-  
+
+
 }
 
 .Foto_Perfil_ {
@@ -358,10 +372,22 @@ input:checked~.Card-Instance .Font-Card {
 .accordion {
   --bs-accordion-color: #ffffff !important;
   --bs-accordion-bg: #fff0 !important;
-  --bs-accordion-border-color: #dee2e600 !important; 
+  --bs-accordion-border-color: #dee2e600 !important;
   --bs-accordion-btn-color: #ffffff !important;
   --bs-accordion-btn-bg: #242424 !important;
-  
 
 
+
+}
+
+.Button_Instance {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+.modal-content{
+  background: #ffffff;
+  background: -webkit-radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
+  background: radial-gradient(circle, #ffffff 0%, #dbdbdb 100%);
 }
