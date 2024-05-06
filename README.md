@@ -20,6 +20,10 @@ El frontend se ha desarrollado utilizando tecnologías web modernas como HTML, C
 
 La aplicación frontend proporciona diversas funcionalidades, como la carga de datos de entrada, la visualización gráfica de las rutas óptimas, la configuración de parámetros de optimización y la exportación de resultados. Además, se han integrado herramientas de visualización y análisis para facilitar la interpretación de los resultados y la toma de decisiones por parte de los usuarios.
 
+<p align="center">
+  <img src="https://github.com/williams123000/App-AntRoute-Frontend/blob/main/src/assets/Img/react-js-intro.jpg">
+</p>
+
 ## Autores
 | [<img src="https://media.licdn.com/dms/image/D4E03AQGBQ8UgY0VdCg/profile-displayphoto-shrink_200_200/0/1712587269099?e=1718236800&v=beta&t=FzunufKMeNvn0V5mVPv6PAkhr5WNm6G3drEXB4iyxM0" width=120 height=120><br><sub>Williams Chan Pescador</sub><br><sub>Desarrollador</sub>](https://github.com/williams123000) |  [<img src="https://investigacion.uam.mx/images/fichas/88651_a.jpg" width=100 height=120><br><sub>Edwin Montes Orozco</sub><br><sub>Tutor</sub>](https://investigacion.uam.mx/index.php/listado-catalogo/88651) |  [<img src="https://dcni.cua.uam.mx/intranet/src/fotoProfes/1916832396IMG_8569.jpg" width=100 height=120><br><sub>Abel García Nájera</sub><br><sub>Tutor</sub>](https://dcni.cua.uam.mx/division/usuario?p=89) |
 | :---: | :---: | :---: |
