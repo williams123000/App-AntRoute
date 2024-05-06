@@ -3,7 +3,7 @@
 # Rutas de vehículos con ventanas de tiempo 🚗
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![ReacJS](https://img.shields.io/badge/ReactJS-v18.2.0-green?style=flat&logo=ReactJS&logoColor=ffffff)](https://legacy.reactjs.org/versions/)
+[![ReacJS](https://img.shields.io/badge/ReactJS-v18.2.0-green?style=flat&logo=reactjs&logoColor=ffffff)](https://legacy.reactjs.org/versions/)
 [![NodeJS](https://img.shields.io/badge/NodeJS-v20.9.0-green?style=flat&logo=NodeJS&logoColor=ffffff)](https://nodejs.org/en)
 
 ## Introducción
