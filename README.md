@@ -3,8 +3,8 @@
 # Rutas de vehículos con ventanas de tiempo 🚗
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![ReacJS](https://img.shields.io/badge/React-v18.2.0-green?style=flat&logo=python&logoColor=ffffff)](https://legacy.reactjs.org/versions/)
-[![NodeJS](https://img.shields.io/badge/ReactJS-18.2.0-green?style=flat&logo=python&logoColor=ffffff)](https://www.python.org/)
+[![ReacJS](https://img.shields.io/badge/ReactJS-v18.2.0-green?style=flat&logo=python&logoColor=ffffff)](https://legacy.reactjs.org/versions/)
+[![NodeJS](https://img.shields.io/badge/NodeJS-20.9.0-green?style=flat&logo=python&logoColor=ffffff)](https://nodejs.org/en)
 
 ## Introducción
 El proyecto Rutas de Vehículos con Ventanas de Tiempo es una iniciativa que busca abordar uno de los problemas fundamentales en logística y distribución: la optimización de rutas de vehículos. Este desafío implica encontrar las rutas más eficientes para múltiples vehículos, teniendo en cuenta restricciones de tiempo y capacidad, con el objetivo de minimizar los costos operativos y mejorar la calidad del servicio.
