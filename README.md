@@ -7,11 +7,18 @@
 [![Python](https://img.shields.io/badge/Python-v3.12.0-green?style=flat&logo=python&logoColor=ffffff)](https://www.python.org/)
 
 ## Introducción
+El proyecto Rutas de Vehículos con Ventanas de Tiempo es una iniciativa que busca abordar uno de los problemas fundamentales en logística y distribución: la optimización de rutas de vehículos. Este desafío implica encontrar las rutas más eficientes para múltiples vehículos, teniendo en cuenta restricciones de tiempo y capacidad, con el objetivo de minimizar los costos operativos y mejorar la calidad del servicio.
 
 ## Objetivo
+El objetivo principal de este proyecto es desarrollar una herramienta informática que permita la planificación y optimización de rutas de vehículos con ventanas de tiempo. Se busca implementar algoritmos avanzados de optimización y técnicas heurísticas para resolver eficientemente este problema complejo, proporcionando soluciones óptimas o cercanas a óptimas en un tiempo razonable.
+
 
 ## Descripción del proyecto
+El proyecto consta de dos componentes principales: el frontend y el backend. En este repositorio, nos enfocamos en el desarrollo del frontend de la aplicación, que es la interfaz de usuario que permite a los usuarios interactuar con la herramienta de optimización de rutas.
 
+El frontend se ha desarrollado utilizando tecnologías web modernas como HTML, CSS y JavaScript, con el framework React.js para garantizar una experiencia de usuario intuitiva y receptiva. La interfaz de usuario permite a los usuarios cargar datos de entrada, visualizar las rutas optimizadas generadas por los algoritmos y analizar los resultados obtenidos.
+
+La aplicación frontend proporciona diversas funcionalidades, como la carga de datos de entrada, la visualización gráfica de las rutas óptimas, la configuración de parámetros de optimización y la exportación de resultados. Además, se han integrado herramientas de visualización y análisis para facilitar la interpretación de los resultados y la toma de decisiones por parte de los usuarios.
 
 ## Autores
 | [<img src="https://media.licdn.com/dms/image/D4E03AQGBQ8UgY0VdCg/profile-displayphoto-shrink_200_200/0/1712587269099?e=1718236800&v=beta&t=FzunufKMeNvn0V5mVPv6PAkhr5WNm6G3drEXB4iyxM0" width=120 height=120><br><sub>Williams Chan Pescador</sub><br><sub>Desarrollador</sub>](https://github.com/williams123000) |  [<img src="https://investigacion.uam.mx/images/fichas/88651_a.jpg" width=100 height=120><br><sub>Edwin Montes Orozco</sub><br><sub>Tutor</sub>](https://investigacion.uam.mx/index.php/listado-catalogo/88651) |  [<img src="https://dcni.cua.uam.mx/intranet/src/fotoProfes/1916832396IMG_8569.jpg" width=100 height=120><br><sub>Abel García Nájera</sub><br><sub>Tutor</sub>](https://dcni.cua.uam.mx/division/usuario?p=89) |
