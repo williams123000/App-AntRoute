@@ -339,40 +339,14 @@ input:checked~.Card-Instance .Font-Card {
   transform: rotateY(-180deg);
 }
 
-.Perfil_Info {
-  display: flex;
-  align-items: center;
-  padding-top: 1rem;
 
-
-}
-
-.Foto_Perfil_ {
-  width: 50px;
-  height: 50px;
-  margin-right: 5px;
-  /* Espacio entre la imagen y el texto */
-  border-radius: 100%;
-  object-fit: cover;
-  border: 3px solid #242424;
-}
-
-.Texto_Perfil {
-  max-width: calc(100%-60px);
-  /* Resta el ancho de la imagen (50px) más un margen (10px) */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 10%;
-  line-height: 1.5;
-  text-align: start;
-}
 
 .Linea_Invisible {
   margin-top: 30px;
   /* Espacio superior entre la línea y el contenido superior */
   margin-bottom: 0px;
   /* Espacio inferior entre la línea y el contenido inferior */
+  padding-bottom: 3rem;
 }
 
 .accordion {

@@ -121,18 +121,12 @@ function Menu(props) {
                 <div className='Footer'>
                     <div className='Menu-Item '>
 
-                        <IoSettingsOutline size={40} />
+                        
 
                     </div>
                     <div className='Informacion_Desarrollador'>
                         <hr className="Linea_Invisible" />
-                        <div className="Perfil_Info">
-                            <img className="Foto_Perfil_" src={Photo_Williams} alt="" />
-                            <div className="Texto_Perfil">
-                                <p className='mb-0'>Williams Chan</p>
-                                <p className='mb-0'>VRPTW ACO </p>
-                            </div>
-                        </div>
+                        <IoSettingsOutline size={40} />
                     </div>
                 </div>
 
